@@ -77,17 +77,23 @@ h2 {
     padding: 10px;
 }
 article {
-    margin-top: 30px;
+    padding-top: 30px;
+    position: relative;
+    background-color: #f7f3ee;
 }
 #line {
-    display: flex;
-}
-hr {
- border-color: #d1cebf;
-    width: 40%;
+    width: 90%;
+    border: 1px solid #d2cfc1;
+    
     
 }
 #os {
-    color: #466544;
-    font-size: 2rem;
+    position: absolute;
+ top: 27%;
+ left: 50%;
+ transform: translateX(-50%);
+ color: #314e30;
+ font-size: 1.6rem;
+ font-weight: 500;
+ 
 }
