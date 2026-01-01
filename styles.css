@@ -190,11 +190,33 @@ background-color: #f7f3ee;
 }
 #content{
     position: static;
-    height: 100px;
+    height: 30px;
        background: linear-gradient(
       rgba(223, 222, 214, 0.9),
       rgba(223, 222, 214, 0.9)
     ),
     url("images/bacgroundc.jpg");
     
+}
+#harea {
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 0%;
+    right: 0%;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #314e30;
+    text-transform: capitalize;
+}
+#subarea {
+    text-align: center;
+    position: absolute;
+    top: 90%;
+    left: 0%;
+    right: 0%;
+    font-size: 1.5rem;
+    color: #0c140c;
+    width: 60%;
+    margin: auto;
 }
