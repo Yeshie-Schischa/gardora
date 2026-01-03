@@ -197,6 +197,7 @@ background-color: #f7f3ee;
     ),
     url("images/bacgroundc.jpg");
     padding-top: 130px;
+    padding-bottom: 230px;
     
 }
 #harea {
@@ -229,4 +230,23 @@ background-color: #f7f3ee;
 }
 #content .line {
     border: 1px solid #c1c1b6;
+}
+#cta{
+    background-color: #41603c;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 1.3rem;
+    max-width: 180px;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+footer {
+    background-color: #1b4d3e;
+}
+#fcontent{
+    display: flex;
 }
