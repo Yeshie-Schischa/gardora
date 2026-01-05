@@ -27,7 +27,7 @@ justify-content: space-between;
     width: 50%;
     text-align: center;
     box-sizing: border-box;
-    height: 140%;
+    height: 75%;
 }
 #logo img{
     height: 100%;
@@ -155,8 +155,19 @@ background-color: #f7f3ee;
     box-sizing: border-box;
     position: relative;
 }
+.beforecontainersl {
+    width: 49.5%;
+    position: relative;
+}
+.beforecontainersl img {
+    width: 100%;
+    height: 100%;
+    border: 5px solid white;
+    box-sizing: border-box;
+}
 .beforecontainers img {
     width: 100%;
+    height: 100%;
     border: 5px solid white;
     box-sizing: border-box;
 }
@@ -169,6 +180,12 @@ background-color: #f7f3ee;
     color: white;
     padding: 7px 15px;
     border-radius: 5px;
+}
+#secondcontainer {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
 }
 #area {
     
@@ -194,14 +211,15 @@ background-color: #f7f3ee;
     margin: 35px auto 0;
 
 }
-#dcta{
+.dcta{
     display: flex;
     justify-content: center;
 }
-#cta {
+.cta {
+    display: block;
     text-decoration: none;
     color: white;
-    background-color: #3b5835;
+    background: linear-gradient(rgba(93, 116, 84), #3e5e39);
     padding: 10px 30px;
     border-radius: 7px;
     font-size: 1.5rem;
@@ -215,10 +233,12 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    width: 65%;
+    width: 75%;
     margin: auto;
     padding: 20px 0px;
-    height: 100px;
+    height: 150px;
+    font-size: 1.rem;
+    line-height: 1.5rem;
 } 
 .fbox{
     padding: 10px;
@@ -229,6 +249,21 @@ footer {
 .fbox:last-child{
     border-right: none;
 }   
-.fbox img{
+.fbox #flogo {
     width: 90%;
+}
+#mapicon {
+    color: #314e30;
+}
+.material-symbols-outlined {
+    color: #3b5835;
+    font-weight:
+}
+.fa-envelope-open, .fa-phone {
+    color: #3b5835;
+}
+h5 {
+    margin: 0px;
+    margin-bottom: 10px;
+    text-align: left;
 }
