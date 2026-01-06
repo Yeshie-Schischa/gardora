@@ -17,7 +17,7 @@ width: 100%;
 height: 68px;
 margin: auto;
 display: flex;
-background-color: #f3efe8;
+background-color: #bdb8a1;
 align-items: center;
 justify-content: space-between;
 }
@@ -51,17 +51,22 @@ ul {
     padding: 0;
 }
 #navbar a {
-    color: #6c7169;
+    color: rgb(27, 77, 62);
     
     text-decoration: none;
     font-size: 1.3rem;
 }
+#navbar a:hover {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
 h2 {
-    color: #fbfaf8;
+    color: white;
     text-align: center;
     padding-top: 180px;
     font-size: 3.5rem;
     margin-bottom: 30px;
+    text-shadow: 0px 1px #314e30, 1px 0px #314e30, 0px -1px #314e30, -1px 0px #314e30;
 }
 #transform {
     background-color: rgba(000, 000, 000, 0.7);
@@ -73,20 +78,11 @@ h2 {
     padding: 10px;
     border-radius: 10px;
 }
-#freequote {
-    width: 250px;
-    color: #e1e7de;
-    background-color: #3b5835;
-    margin: 25px auto;
-    text-align: center;
-    border-radius: 10px;
-    font-size: 1.3rem;
-    padding: 10px;
-}
+
 #oser {
     padding-top: 30px;
     
-    background-color: #f7f3ee;
+    background-color: #d7ceb0;
 }
 .hrwrap{
     position: relative;
@@ -94,7 +90,7 @@ h2 {
 }
 .line {
     width: 90%;
-    border: 1px solid #d2cfc1;
+    border: 1px solid #8f9075;
     margin: auto;
     
     
@@ -113,7 +109,7 @@ h2 {
  
 }
 #ser{
-background-color: #f7f3ee;
+background-color: #d7ceb0;
 }
 #imgcontainerbig{
     display: flex;
@@ -126,7 +122,7 @@ background-color: #f7f3ee;
     justify-content: center;
     width: 25%;
     box-sizing: border-box;
-    border-right: 1px solid #d2cfc1;
+    border-right: 1px solid #8f9075;
 }
 .imagecontainers:nth-child(4){
     border-right: none;
@@ -139,10 +135,10 @@ background-color: #f7f3ee;
     display: block;
 }
 #portfolio {
-    background-color: #f3efe8;
+    background-color: #d7ceb0;
 }
 #oportfolio{
-    background-color: #f3efe8;
+    background-color: #d7ceb0;
 }
 #beforecontainer {
     display: flex;
@@ -187,12 +183,17 @@ background-color: #f7f3ee;
     margin: 0 auto;
     justify-content: space-between;
 }
+#space {
+    height: 50px;
+    background-color: #d7ceb0;
+}
 #area {
     
-    background: linear-gradient(rgba(224, 220, 219, 0.1), rgba(224, 220, 219, 0.9) 30%), url(images/background.webp);
+    background: linear-gradient(rgba(215, 206, 176, 0.3), rgba(215, 206, 176, 1) 30%), url(images/background.webp);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
+
 }
 #proudly {
     text-align: center;
@@ -219,51 +220,64 @@ background-color: #f7f3ee;
     display: block;
     text-decoration: none;
     color: white;
-    background: linear-gradient(rgba(93, 116, 84), #3e5e39);
+    background: linear-gradient(rgb(44, 94, 61), rgb(67, 116, 58));
     padding: 10px 30px;
     border-radius: 7px;
     font-size: 1.5rem;
     text-align: center;
     margin: 90px auto 90px;
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.cta:hover {
+    background: linear-gradient(rgb(27, 77, 62), rgb(49, 105, 52));
 }
 footer {
-    background-color: #f3efe8;
+    background-color: rgba(89, 60, 31);
 }
 #fcontent{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: flex-start;
     width: 75%;
     margin: auto;
     padding: 20px 0px;
     height: 150px;
-    font-size: 1.rem;
+    font-size: 1rem;
     line-height: 1.5rem;
 } 
 .fbox{
     padding: 10px;
-    width: 23%;
+    width: 24%;
     border-right: 1px solid black;
     height: 100%;
+    box-sizing: border-box;
 }
 .fbox:last-child{
     border-right: none;
 }   
+.fbox:first-child{
+    text-align: left;
+    padding-left: 100px;
+}
 .fbox #flogo {
-    width: 90%;
+    width: 80%;
 }
-#mapicon {
-    color: #314e30;
-}
+
 .material-symbols-outlined {
-    color: #3b5835;
-    font-weight:
+    color: rgb(27, 77, 62);
+    font-weight: 700;
+    margin-left: 0px;
 }
 .fa-envelope-open, .fa-phone {
-    color: #3b5835;
+    color: rgb(27, 77, 62);
 }
 h5 {
     margin: 0px;
     margin-bottom: 10px;
-    text-align: left;
+    text-align: center;
+}
+.fbox a {
+    color: black;
+    text-decoration: none;
 }
