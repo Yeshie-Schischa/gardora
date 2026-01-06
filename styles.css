@@ -31,7 +31,7 @@ justify-content: space-between;
 }
 #logo img{
     height: 100%;
-    width: clamp(200px, 17vw, 400px);
+    width: 300px;
     margin: auto;
 }
 nav {
