@@ -148,7 +148,8 @@ footer img {
     position: absolute;
   bottom: 43px;
   right: -300px;
-  animation: cut 10s;
+  animation: cut 10s linear infinite;
+
 }
 @keyframes cut {
   0% {
