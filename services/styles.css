@@ -60,6 +60,7 @@ h2 {
      border-top-left-radius: 20px;
      border-top-right-radius: 20px;
      width: 100%;
+     z-index: 3;
     
 }
 .service-container2 p, .service-container2 h3 {
@@ -70,23 +71,26 @@ h2 {
     border-radius: 7px;
     margin: 20px;
     color: white;
-    background-color: #4CAF50;
+  background: linear-gradient(rgb(44, 94, 61), rgb(67, 116, 58));
     padding: 10px 20px;
     text-decoration: none;
     opacity: 0;
     transition: opacity 0.3s;
 }
+
 .service-container:hover a, .service-container2:hover a {
     opacity: 1;
 }
 footer {
-    padding-top: 280px;
+    
     position: relative;
-    height: 100px;
+    height: 320px;
     background-image: url(images/grass.png);
     background-repeat: repeat-x;
     background-position: bottom;
     overflow: hidden;
+    z-index: -1;
+    margin-top: -110px;
    
 }
 footer img {
@@ -94,6 +98,7 @@ footer img {
   bottom: 43px;
   right: -300px;
   animation: cut 10s linear infinite;
+  z-index: ;
 
 }
 @keyframes cut {

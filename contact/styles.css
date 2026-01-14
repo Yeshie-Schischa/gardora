@@ -25,7 +25,11 @@ input, textarea, button {
     border-radius: 5px;
     border: 1px solid #ccc;
     font-family: "Roboto Flex", sans-serif;
-    outline-offset: 2px;
+    outline-offset: 1px;
+    
+}
+input:focus, textarea:focus, button:focus {
+    outline: 2px solid #314e30;
 }
 textarea {
     height: 150px;
@@ -33,4 +37,8 @@ textarea {
 }
 button{
     cursor: pointer;
+    background: linear-gradient(rgb(49, 133, 107), rgb(70, 146, 74));
+}
+button:hover {
+    background: linear-gradient(rgb(34, 112, 90), rgb(55, 126, 60));
 }
