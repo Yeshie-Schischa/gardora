@@ -57,15 +57,19 @@ h2 {
  font-weight: 500;
  padding: 0% 20px;
  margin: 0%;
+ text-align: center;
  
  
 }
 #ser{
 background-color: #d7ceb0;
+
 }
 #imgcontainerbig{
     display: flex;
     justify-content: center;
+            flex-wrap: wrap;
+
    
 }
 .imagecontainers{
@@ -233,6 +237,13 @@ h5 {
     text-decoration: none;
 }
 @media screen and (max-width: 950px) {
+    #imgcontaine {
+        border-top: 1px solid #8f9075;
+    }
+    .imagecontainers {
+        width: 50%;
+       
+    }
     #fcontent {
     flex-direction: column;
     width: 90%;
@@ -250,4 +261,5 @@ h5 {
 #subarea {
     width: 80%;         
 }
+
 }
