@@ -237,8 +237,16 @@ h5 {
     text-decoration: none;
 }
 @media screen and (max-width: 950px) {
-    #imgcontaine {
+    #imgcontainerbig {
+        width: 85%;
+        margin: auto;
+    }
+    .imagecontainers:nth-child(3), .imagecontainers:nth-child(4)
+     {
         border-top: 1px solid #8f9075;
+    }
+    .imagecontainers:nth-child(2) {
+        border-right: none;
     }
     .imagecontainers {
         width: 50%;
