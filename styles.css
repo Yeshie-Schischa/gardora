@@ -137,10 +137,13 @@ background-color: #d7ceb0;
     padding: 7px 15px;
     border-radius: 5px;
 }
+#phone-devider {
+    display: none;
+}
 #secondcontainer {
     display: flex;
     width: 70%;
-    margin: 0 auto;
+    margin:0 auto;
     justify-content: space-between;
 }
 
@@ -213,8 +216,7 @@ footer {
 .fbox:last-child{
     border-right: none;
 }   
-.fbox:first-child{
-}
+
 .fbox #flogo {
     width: 180px;
 }
@@ -252,6 +254,21 @@ h5 {
         width: 50%;
        
     }
+    #beforecontainer, #secondcontainer {
+       flex-flow: row wrap;
+    }
+.beforecontainers{
+    width: 49.5%;
+    
+}
+.beforecontainers:last-child {
+    margin-top: 1%;
+    width: 100%;
+}
+.beforecontainersl {
+    margin-top: 1%;
+    width: 100%;
+}
     #fcontent {
     flex-direction: column;
     width: 90%;
@@ -271,3 +288,52 @@ h5 {
 }
 
 }
+@media screen and (max-width: 480px) {
+    h2 {
+        font-size: 2.5rem;
+        padding-top: 130px;
+    }
+    #transform {
+        font-size: 1rem;
+    }
+    #proudly {
+        font-size: 2rem;
+        padding-top: 150px;
+    }
+    #subarea {
+        font-size: 1.2rem;
+    }
+    .cta {
+        font-size: 1.2rem;
+        padding: 8px 20px;
+    }
+    #imgcontainerbig {
+        flex-direction: column;
+    } 
+    .imagecontainers {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #8f9075;
+    }
+        .imagecontainers:nth-child(3), .imagecontainers:nth-child(4) {
+        border-top: none;
+    }
+    .imagecontainers:last-child {
+        border-bottom: none;
+    }
+    #beforecontainer {
+        width: 85%;
+        margin-bottom: 5%;
+    }
+    #secondcontainer {
+        width: 85%;
+        margin-top: 5%;
+    }
+    .beforecontainers {
+        width: 100%;
+    }
+    #phone-devider {
+        display: block;
+        width: 95%;
+        margin: 0 auto;
+    }

@@ -8,11 +8,11 @@ h1, h2 {
 }
 h1 {
     font-size: 3.5rem;
-    margin: 40px 0 20px 0;
+    margin: 40px 100px 20px;
 }
 h2 {
     font-size: 2rem;
-    margin: 20px 0 40px 0;
+    margin: 20px 100px 40px ;
 }
 .services {
     display: flex;
@@ -109,4 +109,37 @@ footer img {
     right: 100%;
   }
 
+}
+@media (max-width: 920px) {
+    .services, .services2 {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+    .service-container, .service-container2 {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    .service-container a{
+        display: none;
+    }
+    .service-container2:last-child a {
+     opacity: 1;
+    }
+}
+@media (max-width: 500px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    .service-container p, .service-container h3, .service-container2 p, .service-container2 h3 {
+        font-size: 1.2rem;
+    }
+    .service, .service2 {
+        margin: 10px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
 }
