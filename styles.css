@@ -259,10 +259,10 @@ h5 {
     }
 .beforecontainers{
     width: 49.5%;
-    
+       margin-top: 1%; 
 }
 .beforecontainers:last-child {
-    margin-top: 1%;
+
     width: 100%;
 }
 .beforecontainersl {

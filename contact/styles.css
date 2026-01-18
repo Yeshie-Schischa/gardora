@@ -4,7 +4,7 @@ body{
 form {
     display: flex;
     flex-direction: column;
-    width: 35%;
+    width: clamp(260px, 35%, 920px);
     margin: 30px auto;
 }
 h1 {
